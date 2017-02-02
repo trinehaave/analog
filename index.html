@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="account creation page for the cloud computing company Analog Sea">
+	<link rel="stylesheet" href="styles/AS.css">
+	<title>Analog Sea</title>
+</head>
+<body>
+	<header>
+		<img class="logo" src="images/as-logo.png" alt="logo of Analog Sea">
+	</header>
+	<main>
+		<fieldset>
+				
+			<form action="/signup/" method="post">
+				<legend>Sign up</legend>
+				
+				<label for="email">Email</label>
+				<input class="input field" type="text" name="email" placeholder="foo@bar.com"><br>
+				
+				<label for="password">Password</label>
+				<input class="input field" type="password" name="password" placeholder="1234Passw0rd"><br>
+					
+				<input class="input button" type="submit" name="Sign up" value="Sign up">
+			</form>
+			
+			<a class="forgot" href="/forgotpassword/new">Forgot password?</a>
+		</fieldset>
+		
+		<footer class="login">
+			<p>Already have an account? <a class="login" href="/login">Log in</a></p>
+		</footer>
+	</main>
+</body>
+</html>
