@@ -1,5 +1,9 @@
 * {
 	box-sizing: border-box;
+	/*outline: 1px solid rgba(0,0,0,0.1);*/
+}
+
+body {
 	background-color: #77b6f9;
 	text-align: center;
 	font-family: helvetica, arial, sans-serif;
@@ -7,8 +11,8 @@
 
 .logo {
 	height: 35px;
-	margin-top: 50px;
-	margin-bottom: 20px;
+	display: block;
+	margin: 50px auto 40px auto;
 }
 
 fieldset {
@@ -20,7 +24,6 @@ fieldset {
 	background-color: #fff;
 	margin: auto;
 	border-radius: 5px;
-	border: 2px solid #fff;
 	font-size: 15px;
 }
 
@@ -28,7 +31,6 @@ fieldset {
 	height: 55px;
 	width: 320px;
 	padding: 15px;
-	border: 2px solid #e4e4e4;
 	border-radius: 5px;
 	background-color: #fff;
 	margin-bottom: 15px;
@@ -52,14 +54,14 @@ legend {
 	color: #545556;
 	font-weight: lighter;
 	background-color: #fff;
-	margin: auto auto 15px auto;
+	margin: 0 auto 15px auto;
 }
 
 .button {
 	background-color: #83db83;
 	color: #fff;
 	font-size: 20px;
-	font-weight: bolder;
+	font-weight: 500;
 }
 
 .button:hover { 
@@ -68,9 +70,9 @@ legend {
 
 .forgot {
 	color: #545556;
-	font-weight: lighter;
+	font-weight: 300;
 }
 .login {
 	color: #fff;
-	font-weight: lighter;
+	font-weight: 300;
 }

@@ -8,22 +8,26 @@
 </head>
 <body>
 	<header>
-		<img class="logo" src="as-logo.png" alt="logo of Analog Sea">
+		<img class="logo" src="images/as-logo.png" alt="logo of Analog Sea">
 	</header>
 	<main>
-		<div>
-			<fieldset>
-				<form action="/signup/" method="post">
-					<legend>Sign up</legend>
-					<label for="email">Email</label>
-						<input class="input field" type="text" name="email" placeholder="foo@bar.com"><br>
-					<label for="password">Password</label>
-						<input class="input field" type="password" name="password" placeholder="1234Passw0rd"><br>
-						<input class="input button" type="submit" name="Sign up" value="Sign up">
-				</form>
-				<a class="forgot" href="/forgotpassword/new">Forgot password?</a>
-			</fieldset>
-		</div>
+		<fieldset>
+				
+			<form action="/signup/" method="post">
+				<legend>Sign up</legend>
+				
+				<label for="email">Email</label>
+				<input class="input field" type="text" name="email" placeholder="foo@bar.com"><br>
+				
+				<label for="password">Password</label>
+				<input class="input field" type="password" name="password" placeholder="1234Passw0rd"><br>
+					
+				<input class="input button" type="submit" name="Sign up" value="Sign up">
+			</form>
+			
+			<a class="forgot" href="/forgotpassword/new">Forgot password?</a>
+		</fieldset>
+		
 		<footer class="login">
 			<p>Already have an account? <a class="login" href="/login">Log in</a></p>
 		</footer>
