@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+	background-color: #77b6f9;
+	text-align: center;
+	font-family: helvetica, arial, sans-serif;
+}
+
+.logo {
+	height: 35px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+fieldset {
+	width: 400px;
+	height: 450px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: center;
+	background-color: #fff;
+	margin: auto;
+	border-radius: 5px;
+	border: 2px solid #fff;
+	font-size: 15px;
+}
+
+.input {
+	height: 55px;
+	width: 320px;
+	padding: 15px;
+	border: 2px solid #e4e4e4;
+	border-radius: 5px;
+	background-color: #fff;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+form, label, .forgot {
+	background-color: #fff;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.field {
+	text-align: left;
+	font-size: 15px;
+}
+
+legend {
+	font-size: 32px;
+	padding-top: 30px;
+	color: #545556;
+	font-weight: lighter;
+	background-color: #fff;
+	margin: auto auto 15px auto;
+}
+
+.button {
+	background-color: #83db83;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.button:hover { 
+	background-color: #70a878;
+}
+
+.forgot {
+	color: #545556;
+	font-weight: lighter;
+}
+.login {
+	color: #fff;
+	font-weight: lighter;
+}
