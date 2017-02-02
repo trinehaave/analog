@@ -69,6 +69,7 @@ legend {
 
 .button:hover { 
 	background-color: #70a878;
+	border: 1px solid #70a878;
 }
 
 .forgot {
